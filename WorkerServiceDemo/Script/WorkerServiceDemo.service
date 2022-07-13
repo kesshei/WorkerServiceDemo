@@ -1,0 +1,9 @@
+﻿[Unit]
+Description= WorkerServiceDemo
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/dotnet  /home/kesshei/Desktop/WorkerServiceDemo/WorkerServiceDemo.dll
+
+[Install]
+WantedBy=multi-user.target
